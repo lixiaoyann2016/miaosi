@@ -1,0 +1,44 @@
+.match {
+    @include flexbox();
+    @include flex-direction(column);
+    width: 100%;
+    height: 100%;
+    
+    header {
+        width: 100%;
+        height: 0.44rem;
+        background: #202020;
+        @include flexbox(flex);
+        p:first-child {
+            width: 0.44rem;
+            height: 0.44rem;
+            color: #fff;
+            line-height: 0.44rem;
+            text-align: center;
+            font-size: 0.24rem;
+        }
+        p:last-child {
+            @include flex(1);
+            height: 0.44rem;
+            width: 100%;
+            color: #fff;
+            font-size: 0.22rem;
+            line-height: 0.44rem;
+            text-align: center;
+        }
+    }
+    .scroll {
+        @include flex(1);
+        width: 100%;
+        background: #f66;
+        
+        .con{
+            
+            .pic{
+                img{
+                    width: 100%;
+                } 
+            }
+        }
+    }
+}

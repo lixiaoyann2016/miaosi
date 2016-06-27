@@ -1,0 +1,19 @@
+
+<!--这里代表一个大盒子，最外层大盒子-->
+<div class="match">
+	<header>
+		<p class="iconfont icon-san"></p>
+		<p>搭配</p>
+	</header>
+	<div class="scroll">
+		<div class="con">
+			<div class="pic"><img src="/miaosi/images/match1.png"/></div>
+			<div class="text">
+				<div class="line"></div>
+				<img src="/miaosi/images/ma1.png"/>
+				<div class="line"></div>
+			</div>
+			<div class="share"></div>
+		</div>
+	</div>
+</div>

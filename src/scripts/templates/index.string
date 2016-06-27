@@ -1,0 +1,38 @@
+
+<!--这里代表一个大盒子，最外层大盒子-->
+<div class="my-index">
+	
+	<!--这里代表footer以上的部分-->
+	<div class="container">
+		
+	</div>		
+	<!--上部分结束-->	
+	
+	<!--footer部分-->
+	<footer>
+		<ul>
+			<li class="active" action-type="class.tab" data-tag="home">
+				<i class="iconfont icon-shouye"></i>
+				<p>首页</p>
+			</li>
+			
+			<li action-type="class.tab"  data-tag="classify">
+				<i class="iconfont icon-xuqiu"></i>
+				<p>分类</p>
+			</li>
+			
+			<li action-type="class.tab"  data-tag="match">
+				<i class="iconfont icon-zhuanshi"></i>
+				<p>搭配</p>
+			</li>
+			
+			<li action-type="class.tab"  data-tag="my">
+				<i class="iconfont icon-wode"></i>
+				<p>我的</p>
+			</li>
+		</ul>
+	</footer>
+	<!--footer部分结束-->
+	
+	
+</div>

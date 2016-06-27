@@ -1,0 +1,113 @@
+<!--该部分是home的部分以后要被掏空到别的页面去-->
+<div class="home">
+	
+		<header>
+			<p class="iconfont icon-san"></p>
+			<p>妙思</p>
+		</header>	
+		<section spa-widget="scroll">
+			<div class="iscroll">
+				<!--轮播图-->
+				<div class="banner">
+					<div class="swiper-container" id="homeSwiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<img src="/miaosi/images/sw5.png" />
+							</div>
+			        <div class="swiper-slide">
+			        	<img src="/miaosi/images/sw2.png" />
+			        </div>
+			        <div class="swiper-slide">
+			        	<img src="/miaosi/images/sw3.png" />
+			        </div>
+			        <div class="swiper-slide">
+			        	<img src="/miaosi/images/sw4.png" />
+			        </div>
+			        <div class="swiper-slide">
+			        	<img src="/miaosi/images/sw9.png" />
+			        </div>
+			        <div class="swiper-slide">
+			        	<img src="/miaosi/images/sw6.png" />
+			        </div>
+			        <div class="swiper-slide">
+			        	<img src="/miaosi/images/sw7.png" />
+			        </div>
+			        <div class="swiper-slide">
+			        	<img src="/miaosi/images/sw8.png" />
+			        </div>
+			        <div class="swiper-slide">
+			        	<img src="/miaosi/images/sw1.png" />
+			        </div>
+			       
+						</div>	
+						<!-- 如果需要分页器 -->
+						<div class="swiper-pagination"></div>
+					</div>
+				</div>
+				<!--轮播图结束-->
+				
+				<!--中间导航部分-->
+				<div class="nav">
+					<div><a href="###"><img src="/miaosi/images/con1.png"></a></div>
+					<div><a href="###"><img src="/miaosi/images/con2.png"></a></div>
+					<div><a href="###"><img src="/miaosi/images/con3.png"></a></div>
+					<div><a href="###"><img src="/miaosi/images/con4.png"></a></div>
+				</div>
+				<!--导航部分结束-->
+				
+				
+				<!--滚动条部分-->
+				<div class="main">
+					<dl>
+						<dt><img src="/miaosi/images/main5.png" /></dt>
+						<dd>S925纯银镀玫瑰金 天然斯里兰卡月光石钻戒</dd>
+						<span>￥148</span>
+					</dl>
+					<dl>
+						<dt><img src="/miaosi/images/main1.png" /></dt>
+						<dd>S925纯银镀玫瑰金 天然斯里兰卡月光石钻戒</dd>
+						<span>￥238</span>
+					</dl>
+					
+					<dl>
+						<dt><img src="/miaosi/images/main2.png" /></dt>
+						<dd>S925纯银镀玫瑰金 天然斯里兰卡月光石钻戒</dd>
+						<span>￥238</span>
+					</dl>
+					<dl>
+						<dt><img src="/miaosi/images/main3.png" /></dt>
+						<dd>S925纯银镀玫瑰金 天然斯里兰卡月光石钻戒</dd>
+						<span>￥238</span>
+					</dl>
+					<dl>
+						<dt><img src="/miaosi/images/main4.png" /></dt>
+						<dd>S925纯银镀玫瑰金 天然斯里兰卡月光石钻戒</dd>
+						<span>￥238</span>
+					</dl>
+					<dl>
+						<dt><img src="/miaosi/images/main6.png" /></dt>
+						<dd>S925纯银镀玫瑰金 天然斯里兰卡月光石钻戒</dd>
+						<span>￥238</span>
+					</dl>
+					<dl>
+						<dt><img src="/miaosi/images/main7.png" /></dt>
+						<dd>S925纯银镀玫瑰金 天然斯里兰卡月光石钻戒</dd>
+						<span>￥238</span>
+					</dl>
+					<dl>
+						<dt><img src="/miaosi/images/main8.png" /></dt>
+						<dd>S925纯银镀玫瑰金 天然斯里兰卡月光石钻戒</dd>
+						<span>￥238</span>
+					</dl>
+					<dl>
+						<dt><img src="/miaosi/images/main1.png" /></dt>
+						<dd>S925纯银镀玫瑰金 天然斯里兰卡月光石钻戒</dd>
+						
+					</dl>
+				</div>	
+			</div>
+			
+			
+			
+		</section>	
+</div>

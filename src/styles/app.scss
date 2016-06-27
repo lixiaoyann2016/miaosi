@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+//引入公共样式
+@import "./core/reset.scss";
+@import "./core/classes.scss";
+@import "../../images/iconfont/iconfont.css";
+@import 'usage/core/swiper-3.3.1.min.css';
+
+
+spa-app {
+    position: absolute;
+    overflow: hidden;
+}
+
+spa-view {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #fff !important;
+    @include flexbox(flex);
+    @include flex-direction(column);
+}
+
+
+
+//引入自己写的样式
+@import "./usage/module/register";
+@import "./usage/module/login";
+@import "./usage/module/classify";
+@import "./usage/module/match";
+@import "./usage/module/my";
+@import "./usage/module/home";
+@import "./usage/module/index";
+

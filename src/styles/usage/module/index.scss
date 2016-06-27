@@ -1,0 +1,64 @@
+html,body{
+    width: 100%;
+    height: 100%;
+//  background: #f66; 
+}
+
+.my-index{
+    @include flexbox();
+    @include flex-direction(column);
+    width: 100%;
+    height: 100%;
+    
+    .container{
+        @include flex(1); 
+        //给他加弹性盒，让它里面的子盒子占一份，不然会出现高度的错误
+        @include flexbox();
+        width: 100%;
+//      height: 100%;
+        overflow: hidden;
+        position: relative;
+     
+    }
+    
+    
+    
+    footer{        
+        width: 100%;
+        height: .55rem;
+        background: #fff;
+        
+        ul{
+            @include box-sizing(border-box);
+            @include border(1px 0 0 0, #757575);
+            @include flexbox(); 
+            @include justify-content(center);
+            @include align-items(center);           
+            height: 100%;
+            
+            
+            li{
+                @include flex(1);
+                @include justify-content(center);
+                @include align-items(center);
+                height: 100%;
+                i{
+                    padding-top: .05rem;
+                    display: block;
+                    width: 100%;
+                    text-align: center;
+                    font-size: .2rem;
+                    color: #757978;
+                }
+                p{
+                    width: 100%;
+                    text-align: center;
+                    font-size: .12rem;
+                }
+                &.active i,&.active p{
+                    color: deepskyblue;
+                }
+            }
+        }
+    }
+}

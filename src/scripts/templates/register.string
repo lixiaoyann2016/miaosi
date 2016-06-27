@@ -1,0 +1,42 @@
+
+<div class="all">
+	
+	<header>
+		<p class="iconfont icon-san"></p>
+		<p>注册</p>
+	</header>
+	<!--<div class="close" action-type="close.login">
+		<i class="iconfont icon-fenxiang"></i>	
+	</div>
+	<form>
+		<div>
+			<i class="iconfont icon-wode"></i>
+			<input type="text" placeholder="请输入手机号码"/>
+		</div>
+		
+		<div>
+			<i class="iconfont icon-dingdan"></i>
+			<input type="password" placeholder="请输入密码"/>
+		</div>
+		
+		<p></p>
+		<input class="submit" type="submit" value="登录"/>
+	</form>
+	
+	<div class="link">
+		<a href="#####">新用户注册</a>
+		<a href="######">忘记密码?</a>
+	</div>
+	
+	<div class="share">
+		<div class="text">
+			<div class="line"></div>
+			<p>使用社交软件</p>
+			<div class="line"></div>
+		</div>
+		<div class="pic">
+			<img src="/miaosi/images/xin.png" />
+			<img src="/miaosi/images/wei.png" />
+		</div>
+	</div>-->
+</div>

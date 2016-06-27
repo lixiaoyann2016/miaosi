@@ -1,0 +1,65 @@
+<!--这里代表一个大盒子，最外层大盒子-->
+<div class="my-scroll" id="my">
+	<div class="my-container">
+		<div class="portrait">
+			<img action-type="goto.login" class="head" src="/miaosi/images/tou.png">
+			<p>昵称</p>
+		</div>
+		
+		<div class="main">
+			<ul class="list">
+				<li action-type="goto.login">
+					<i class="iconfont icon-dingdan"></i>
+					<p>订单</p>
+					<i class="iconfont icon-jia"></i>
+				</li>
+				
+				<li action-type="goto.login">
+					<i class="iconfont icon-shoucang"></i>
+					<p>收藏</p>
+					<i class="iconfont icon-jia"></i>
+				</li>
+				
+				<li action-type="goto.login">
+					<i class="iconfont icon-zhuanshi"></i>
+					<p>需求</p>
+					<i class="iconfont icon-jia"></i>
+				</li>
+				
+				<li action-type="goto.login">
+					<i class="iconfont icon-peishi"></i>
+					<p>搭配</p>
+					<i class="iconfont icon-jia"></i>
+				</li>
+				
+			</ul>
+			
+			<ul class="server">
+				<li action-type="goto.login">
+					<i class="iconfont icon-iconfontkefu"></i>
+					<p>客服</p>
+					<i class="iconfont icon-jia"></i>
+				</li>
+				
+				<li action-type="goto.login">
+					<i class="iconfont icon-guanyu"></i>
+					<p>关于</p>
+					<i class="iconfont icon-jia"></i>
+				</li>
+				
+				<li action-type="goto.login">
+					<i class="iconfont icon-zhuanshi"></i>
+					<p>设计</p>
+					<i class="iconfont icon-jia"></i>
+				</li>
+				
+				<li action-type="goto.login">
+					<i class="iconfont icon-hongbao"></i>
+					<p>红包</p>
+					<i class="iconfont icon-jia"></i>
+				</li>
+			</ul>
+		</div>
+		
+	</div>
+</div>

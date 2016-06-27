@@ -1,0 +1,11 @@
+
+<!--这里代表一个大盒子，最外层大盒子-->
+<div class="classify">
+	<header>
+		<p class="iconfont icon-san"></p>
+		<p>分类</p>
+	</header>
+	<div class="scroll">
+		
+	</div>
+</div>
